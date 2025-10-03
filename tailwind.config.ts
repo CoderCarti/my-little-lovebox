@@ -63,6 +63,11 @@ export default {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+      fontFamily: {
+        'romantic': ['Dancing Script', 'cursive'],
+        'handwritten': ['Caveat', 'cursive'],
+        'signature': ['Satisfy', 'cursive'],
+      },
       keyframes: {
         "accordion-down": {
           from: {
@@ -80,10 +85,72 @@ export default {
             height: "0",
           },
         },
+        "fade-in": {
+          "0%": {
+            opacity: "0",
+            transform: "translateY(20px)"
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateY(0)"
+          }
+        },
+        "fade-in-scale": {
+          "0%": {
+            opacity: "0",
+            transform: "scale(0.95)"
+          },
+          "100%": {
+            opacity: "1",
+            transform: "scale(1)"
+          }
+        },
+        "bloom": {
+          "0%": {
+            transform: "scale(0.8) rotate(-10deg)",
+            opacity: "0"
+          },
+          "100%": {
+            transform: "scale(1) rotate(0deg)",
+            opacity: "1"
+          }
+        },
+        "float": {
+          "0%, 100%": {
+            transform: "translateY(0px)"
+          },
+          "50%": {
+            transform: "translateY(-10px)"
+          }
+        },
+        "envelope-open": {
+          "0%": {
+            transform: "rotateX(0deg)"
+          },
+          "100%": {
+            transform: "rotateX(-180deg)"
+          }
+        },
+        "letter-unfold": {
+          "0%": {
+            transform: "scaleY(0)",
+            transformOrigin: "top"
+          },
+          "100%": {
+            transform: "scaleY(1)",
+            transformOrigin: "top"
+          }
+        }
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "fade-in": "fade-in 0.6s ease-out",
+        "fade-in-scale": "fade-in-scale 0.6s ease-out",
+        "bloom": "bloom 0.8s ease-out",
+        "float": "float 3s ease-in-out infinite",
+        "envelope-open": "envelope-open 1s ease-out forwards",
+        "letter-unfold": "letter-unfold 0.8s ease-out forwards"
       },
     },
   },
