@@ -51,31 +51,17 @@ const SongSection = () => {
               Let the music carry you to our favorite memories
             </p>
           </div>
-
-          {/* Spotify Embed - Replace with your song */}
-          <div className="w-full rounded-2xl overflow-hidden shadow-lg">
-            <iframe
-              src={songEmbedUrl}
-              width="100%"
-              height="352"
-              frameBorder="0"
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-              loading="lazy"
-              className="rounded-2xl"
-            ></iframe>
-          </div>
-
           {/* Alternative: YouTube Embed (uncomment if you prefer YouTube) */}
-          {/* <div className="relative w-full pt-[56.25%] rounded-2xl overflow-hidden shadow-lg">
+          <div className="relative w-full pt-[56.25%] rounded-2xl overflow-hidden shadow-lg">
             <iframe
               className="absolute top-0 left-0 w-full h-full rounded-2xl"
-              src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
-              title="Our Song"
+               src="https://www.youtube.com/embed/ZZMZiBCRX4c?si=seZf4FaU_42ij9yl"
+               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
-          </div> */}
+          </div>
 
           <div className="mt-8 text-center">
             <p className="text-lg font-handwritten text-foreground/70 italic">

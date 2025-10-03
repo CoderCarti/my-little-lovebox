@@ -3,6 +3,7 @@ import { ArrowLeft, X } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import paperTexture from "@/assets/paper-texture.jpg";
+import babeh from "@/assets/babeh.jpg";
 
 interface Memory {
   id: number;
@@ -11,43 +12,12 @@ interface Memory {
   imageUrl: string;
 }
 
-// Placeholder memories - replace with your actual photos and memories
 const memories: Memory[] = [
   {
     id: 1,
     caption: "Our First Adventure",
     note: "The day we laughed until our stomachs hurt and I knew you were special.",
-    imageUrl: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=800&auto=format&fit=crop"
-  },
-  {
-    id: 2,
-    caption: "That Perfect Sunset",
-    note: "When the sky matched the warmth I felt holding your hand.",
-    imageUrl: "https://images.unsplash.com/photo-1495954484750-af469f2f9be5?w=800&auto=format&fit=crop"
-  },
-  {
-    id: 3,
-    caption: "Cozy Moments",
-    note: "Every moment with you feels like home.",
-    imageUrl: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&auto=format&fit=crop"
-  },
-  {
-    id: 4,
-    caption: "Dancing in the Rain",
-    note: "You make every ordinary moment extraordinary.",
-    imageUrl: "https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=800&auto=format&fit=crop"
-  },
-  {
-    id: 5,
-    caption: "Coffee & Conversations",
-    note: "I could listen to you talk for hours and never get bored.",
-    imageUrl: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=800&auto=format&fit=crop"
-  },
-  {
-    id: 6,
-    caption: "Together Forever",
-    note: "Here's to all the memories we've made and all the ones still to come.",
-    imageUrl: "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?w=800&auto=format&fit=crop"
+    imageUrl: babeh
   }
 ];
 
@@ -75,10 +45,10 @@ const Memories = () => {
 
         <div className="text-center mb-12 animate-fade-in-scale">
           <h1 className="text-4xl md:text-6xl font-romantic mb-4 text-primary">
-            Captured Memories
+            Us
           </h1>
           <p className="text-lg md:text-xl font-handwritten text-foreground/80">
-            Every photo tells a story of us ♡
+            One photo is enough for now ♡
           </p>
         </div>
 
@@ -113,7 +83,7 @@ const Memories = () => {
           onClick={() => setSelectedMemory(null)}
         >
           <div 
-            className="relative max-w-4xl w-full bg-card rounded-3xl overflow-hidden shadow-2xl"
+            className="relative max-w-4xl w-full bg-card rounded-3xl overflow-hidden shadow-2xl flex flex-col items-center"
             onClick={(e) => e.stopPropagation()}
           >
             <Button
@@ -125,26 +95,24 @@ const Memories = () => {
               <X className="w-6 h-6" />
             </Button>
 
-            <div className="grid md:grid-cols-2 gap-0">
-              <div className="aspect-square md:aspect-auto">
-                <img
-                  src={selectedMemory.imageUrl}
-                  alt={selectedMemory.caption}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="p-8 flex flex-col justify-center bg-card">
-                <h2 className="text-3xl font-romantic mb-4 text-primary">
-                  {selectedMemory.caption}
-                </h2>
-                <p className="text-lg font-handwritten leading-relaxed text-foreground/80">
-                  {selectedMemory.note}
-                </p>
-              </div>
+            <img
+              src={selectedMemory.imageUrl}
+              alt={selectedMemory.caption}
+              className="max-h-[80vh] max-w-full object-contain mx-auto"
+            />
+
+            <div className="p-6 text-center">
+              <h2 className="text-3xl font-romantic mb-4 text-primary">
+                {selectedMemory.caption}
+              </h2>
+              <p className="text-lg font-handwritten leading-relaxed text-foreground/80">
+                {selectedMemory.note}
+              </p>
             </div>
           </div>
         </div>
       )}
+
     </div>
   );
 };
