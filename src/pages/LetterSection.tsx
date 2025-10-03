@@ -52,7 +52,7 @@ const LetterSection = () => {
             <div className="bg-card/90 backdrop-blur-sm rounded-3xl p-8 md:p-12 shadow-2xl border-4 border-primary/20">
               <div className="text-center mb-8">
                 <h2 className="text-3xl md:text-5xl font-romantic text-primary mb-4">
-                  My Dearest Love,
+                  My Dearest Babi,
                 </h2>
                 <div className="w-24 h-1 bg-primary/30 mx-auto rounded-full" />
               </div>
@@ -63,19 +63,19 @@ const LetterSection = () => {
                 </p>
 
                 <p>
-                  From the moment you came into my life, everything changed. You brought color to my days, music to my mornings, and warmth to my heart. Your laughter is my favorite melody, and your smile is the sunshine that brightens even my darkest days.
+                  From the moment you came, everything changed. You brought color to my days, music to my mornings, and warmth to my heart. Your smile is the sunshine that brightens even my darkest days aba naks.
                 </p>
 
                 <p>
-                  I love the way you see the world—with kindness, curiosity, and wonder. I love how you make me feel safe to be myself, how you listen to my dreams and fears with equal tenderness. With you, I've found a home not in a place, but in a person.
+                  I love the way you see the world with kindness, curiosity, and wonder. I love how you make me feel safe to be myself, how you listen to my dreams and fears with equal tenderness. With you, I've found a home not in a place, but in a person.
                 </p>
 
                 <p>
-                  Every little thing you do amazes me. The way you scrunch your nose when you laugh, how you get excited about the smallest things, the gentle way you care for everyone around you—these are the moments I treasure most.
+                  Every little thing you do amazes me. The way you get excited about the smallest things, the way you tell me about your day, the gentle way you care for everyone around you—these are the moments I treasure most.
                 </p>
 
                 <p>
-                  Thank you for being patient with me, for believing in me, for choosing me every single day. Thank you for all the adventures we've shared and all the quiet moments in between. Thank you for being exactly who you are.
+                  Thank you for being patient with me, for believing in me, for choosing me. Thank you for being exactly who you are babi.
                 </p>
 
                 <p>
@@ -83,22 +83,21 @@ const LetterSection = () => {
                 </p>
 
                 <p className="text-center italic text-2xl text-primary mt-8">
-                  You are my today and all of my tomorrows.
+                  You are my honeybwunch sugarplum sprinkle winkle popsickle cotton candy.
                 </p>
 
                 <p className="text-center mt-8">
-                  Forever yours,
+                  Sincerely,
                 </p>
 
                 <p className="text-center font-signature text-3xl text-primary mt-4">
-                  With all my love ♡
+                  Dwight "Christian" Ramos
                 </p>
               </div>
 
               <div className="mt-12 pt-8 border-t-2 border-primary/20 text-center">
                 <p className="text-sm font-handwritten text-muted-foreground italic">
-                  P.S. — I love you more than yesterday, but less than tomorrow. 
-                  And that's how it will always be. ✨
+                  P.S. — I love you more than you know.
                 </p>
               </div>
             </div>

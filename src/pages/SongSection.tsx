@@ -35,27 +35,24 @@ const SongSection = () => {
           </div>
           
           <h1 className="text-4xl md:text-6xl font-romantic mb-6 text-primary">
-            A Song That Reminds Me of You
+            This Song That Reminds Me of You 
           </h1>
           <p className="text-lg md:text-xl font-handwritten text-foreground/80 max-w-xl mx-auto leading-relaxed">
-            Every time I hear this song, I think of you and all the beautiful moments we've shared together ♡
+            Every time I hear this song, it makes me feel some type of way and it remind me of you.
           </p>
         </div>
 
         <div className="bg-card/80 backdrop-blur-sm rounded-3xl p-6 md:p-8 shadow-2xl animate-fade-in-scale">
           <div className="mb-6 text-center">
-            <p className="text-xl font-romantic text-primary mb-2">
-              Close your eyes and listen...
-            </p>
-            <p className="text-sm font-handwritten text-muted-foreground">
-              Let the music carry you to our favorite memories
+            <p className="text-m font-handwritten text-muted-foreground">
+              I know that this song is so common but I feel like this speaks a lot about you/us
             </p>
           </div>
           {/* Alternative: YouTube Embed (uncomment if you prefer YouTube) */}
           <div className="relative w-full pt-[56.25%] rounded-2xl overflow-hidden shadow-lg">
             <iframe
               className="absolute top-0 left-0 w-full h-full rounded-2xl"
-               src="https://www.youtube.com/embed/ZZMZiBCRX4c?si=seZf4FaU_42ij9yl"
+               src="https://www.youtube.com/embed/MHCsrKA9gh8?si=oG80mfomV9DimmZ_" 
                title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -71,8 +68,8 @@ const SongSection = () => {
         </div>
 
         <div className="mt-8 text-center animate-fade-in">
-          <p className="text-sm font-signature text-muted-foreground">
-            This song will forever be ours ✨
+          <p className="text-s font-signature text-muted-foreground">
+            PS: I hope that this isn't too cheesy for you babi 
           </p>
         </div>
       </div>

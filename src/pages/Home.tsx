@@ -15,13 +15,13 @@ const Home = () => {
         </div>
         
         <h1 className="text-5xl md:text-7xl font-romantic mb-6 text-primary drop-shadow-md">
-          For You, My Love
+          For You, Babi
         </h1>
         
         <p className="text-xl md:text-2xl font-handwritten mb-12 text-foreground/80 max-w-xl mx-auto leading-relaxed">
-          I created this little corner of the internet just for you. 
-          Each section holds a piece of my heart. 
-          Take your time exploring... ♡
+          I created this little corner just for you. 
+          Each section has a special thing. 
+          Take your time exploring babi ♡
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-md mx-auto">
@@ -33,7 +33,7 @@ const Home = () => {
           >
             <Link to="/memories" className="flex items-center gap-2">
               <Camera className="w-5 h-5" />
-              Our Memories
+              Our Pictures
             </Link>
           </Button>
 
@@ -57,7 +57,7 @@ const Home = () => {
           >
             <Link to="/song" className="flex items-center gap-2">
               <Music className="w-5 h-5" />
-              Our Song
+              Your Song
             </Link>
           </Button>
 
@@ -75,7 +75,7 @@ const Home = () => {
         </div>
 
         <p className="mt-12 text-sm font-signature text-muted-foreground">
-          Made with endless love, just for you ✨
+          Made by yours truly
         </p>
       </div>
     </div>

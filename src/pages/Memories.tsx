@@ -15,8 +15,8 @@ interface Memory {
 const memories: Memory[] = [
   {
     id: 1,
-    caption: "Our First Adventure",
-    note: "The day we laughed until our stomachs hurt and I knew you were special.",
+    caption: "Picture of Us",
+    note: "Not our official picture but it's a start ",
     imageUrl: babeh
   }
 ];
@@ -69,7 +69,7 @@ const Memories = () => {
               </div>
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               <div className="absolute bottom-0 left-0 right-0 p-4 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                <h3 className="font-romantic text-xl mb-1">{memory.caption}</h3>
+                <h3 className="font-romantic text-2xl mb-1">{memory.caption}</h3>
               </div>
             </div>
           ))}
